@@ -377,7 +377,100 @@ export default function Landing() {
 
       </section>
 
+<section className="py-20 px-5 md:px-8">
 
+  <h3 className="text-3xl font-bold text-center mb-10">
+    Try Trackly Demo
+  </h3>
+
+
+  <p className="text-center text-white/60 mb-10">
+    Use these demo accounts to explore different roles in the system.
+  </p>
+
+
+
+  <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+
+
+    {/* ADMIN */}
+
+    <div className="
+      p-6
+      rounded-2xl
+      bg-white/5
+      border
+      border-white/10
+      backdrop-blur-md
+    ">
+
+      <h4 className="text-xl font-bold text-cyan-300 mb-4">
+        👨‍💼 Admin Account
+      </h4>
+
+
+      <p className="text-white/80">
+        Email:
+        <span className="text-white">
+          admin@trackly.com
+        </span>
+      </p>
+
+
+      <p className="text-white/80">
+        Password:
+        <span className="text-white">
+          admin123
+        </span>
+      </p>
+
+
+    </div>
+
+
+
+
+
+    {/* DRIVER */}
+
+    <div className="
+      p-6
+      rounded-2xl
+      bg-white/5
+      border
+      border-white/10
+      backdrop-blur-md
+    ">
+
+
+      <h4 className="text-xl font-bold text-green-300 mb-4">
+        🚚 Driver Account
+      </h4>
+
+
+      <p className="text-white/80">
+        Email:
+        <span className="text-white">
+          ali@trackly.com
+        </span>
+      </p>
+
+
+      <p className="text-white/80">
+        Password:
+        <span className="text-white">
+          1234
+        </span>
+      </p>
+
+
+    </div>
+
+
+  </div>
+
+
+</section>
 
 
 
